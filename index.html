@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO -->
+    <meta name="description" content="2022 Presidential Election Projection done by Kenyan Citizens">
+    <meta name="url" content="http://www.e-polls.netlify.app">
+    <meta name="copyright" content="@E-Polls 2021">
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:title" content="E-Polls" class="meta-title">
+     <meta property="og:type" content="web">
+     <meta property="og:url" content="https://E-Polls.netlify.app/index.html" class="meta-url">
+     <meta property="og:image" content="https://E-Polls.netlify.app/resources/candidates/favicon/apple-touch-icon.jpg" class="meta-image">
+    
+
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="E-Polls"/>
+	<meta property="og:image" content="https://E-Polls.netlify.app/resources/candidates/favicon/apple-touch-icon.jpg"/>
+	<meta property="og:url" content="https://E-Polls.netlify.app"/>
+	<meta property="og:site_name" content="E-Polls"/>
+	<meta property="og:description" content="2022 General Elections Projection"/>
+	<meta name="twitter:title" content="E-Polls" />
+	<meta name="twitter:image" content="https://E-Polls.netlify.app/resources/candidates/favicon/apple-touch-icon.jpg" />
+	<meta name="twitter:url" content="https://E-Polls.netlify.app" />
+	
+
+    <link rel="shortcut icon" href="resources/candidates/favicon/apple-touch-icon.jpg">
+    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="resources/candidates/favicon/apple-touch-icon.jpg">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+  	<title>E-Polls</title>
+	<script src="js/sweetalert.min.js"></script>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+	<title>E-Polls</title>
+</head>
+<body onload="render();">
+
+<div id="app"></div>
+
+
+
+
+
+
+
+<script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyDYm2Uvz7-5TjQ0pbpR0tPKwjQqF9GLaLA",
+    authDomain: "presidential-a92df.firebaseapp.com",
+    projectId: "presidential-a92df",
+    storageBucket: "presidential-a92df.appspot.com",
+    messagingSenderId: "209084665735",
+    appId: "1:209084665735:web:be80e46744229f24cc4d22"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="js/app.js"></script>
+<script src="js/render.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+	font-family: 'poppins';
+	font-size: 14px;
+	scroll-behavior: smooth;
+	/*background-image: url('../resources/candidates/logo/18386b0241d310454a82b6e150d7f27a.jpg');*/
+
+}
+
+.carousel{
+	margin-top: 2rem;
+}
+
+.underline{
+	font-family: 'Brush Script MT';
+	text-decoration-line: underline;
+	text-decoration-color: blue;
+}
+.card-body{
+   background-image: url('../resources/candidates/logo/depositphotos_48678751-stock-photo-ice-on-a-window-background.jpg');
+
+
+}
+nav{
+	   background-image: url('../resources/candidates/logo/depositphotos_48678751-stock-photo-ice-on-a-window-background.jpg') !important;
+
+
+}
+#display p,#vote_moi p, #vote_peter p, #vote_kalonzo p, #vote_musalia p, #vote_moses p, #vote_raila p, #vote_ruto p {
+	color: red;
+	font-weight: bold;
+}
+
+#footer{
+
+ background-image: url('../resources/candidates/logo/depositphotos_48678751-stock-photo-ice-on-a-window-background.jpg') !important;
+
+
+}
+
+#clockdiv{
+
+			display:block;
+			text-align: center;
+			font-size:15px;
+			color: #fff;
+			font-weight: bold;
+
+		}
+		#clockdiv >div{
+			padding: 10px;
+			border-radius:3px;
+			background: #3944bc;
+			display: inline-block;
+		}
+		#clockdiv div> span{
+			padding: 15px;
+			border-radius:3px;
+			background: #82eefd;
+			display: inline-block;
+			color: #000
+		}
+
+		.smalltext{
+			padding-top: 5px;
+			font-size: 10px;
+		}
+		.box{
+
+			display:inline-block;
+			margin:0.5;
+			text-align: center;
+			padding:10px;
+		}
